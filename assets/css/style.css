@@ -245,6 +245,11 @@ input[type=submit] {
     float: left;
   }
 
+  .auth-image {
+    width: 100%;
+  }
+
+
   .sidebar{
     float: right;
   }
@@ -257,6 +262,14 @@ input[type=submit] {
     margin-left: 3px;
   }
 
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+
   .sidebar{
     bottom: 0;
     float: left;
@@ -267,6 +280,10 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   body{
     width: 640px;
+  }
+
+  .auth-image {
+    width: 100%;
   }
 
   .sidebar{
